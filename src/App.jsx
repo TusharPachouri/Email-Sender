@@ -9,9 +9,7 @@ function App() {
 
   return (
     <>
-    {/* <Blod title="This is the first blg" username="Anmol Jain" like= "500" /> */}
-
-     {/* <UploadForm/> */}
+   
       <EmailSender/>
          
     </>
