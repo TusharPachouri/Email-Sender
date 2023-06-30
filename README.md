@@ -24,7 +24,7 @@ git clone https://github.com/anmoljain16/Email-Sender.git
 ```
 
 ```
-cd project
+cd Email-Sender
 
 ```
 ```
