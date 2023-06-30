@@ -29,8 +29,10 @@ cd Email-Sender
 ```
 ```
 yarn 
+```
 
-
+```
+cd src
 ```
 
 ```
