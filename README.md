@@ -34,11 +34,6 @@ yarn
 ```
 
 ```
-yarn dev
-
-```
-
-```
 cd Server
 
 ```
@@ -46,11 +41,19 @@ cd Server
 ```
 npm i
 ```
+
 ### Replace the .env.example with .env file and Enter Your own Credentials 
 
 
 ## Now run Yarn Server and Node Server 
+### Run yarn server when in main directory and Node Server when in Server Directory
+```
+yarn dev
 
+```
+```
+Node index.js
+```
 
 
 ## Built With
