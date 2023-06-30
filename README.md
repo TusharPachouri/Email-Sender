@@ -19,7 +19,7 @@ Yarn package manager
 Follow the steps below to get a development environment running:
 
 ```
-git clone https://github.com/your/project.git
+git clone https://github.com/anmoljain16/Email-Sender.git
 
 ```
 
