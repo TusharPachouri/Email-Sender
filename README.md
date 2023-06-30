@@ -20,12 +20,10 @@ Follow the steps below to get a development environment running:
 
 ```
 git clone https://github.com/anmoljain16/Email-Sender.git
-
 ```
 
 ```
 cd Email-Sender
-
 ```
 ```
 yarn 
@@ -37,21 +35,19 @@ cd src
 
 ```
 cd Server
-
 ```
 
 ```
 npm i
 ```
 
-### Replace the .env.example with .env file and Enter Your own Credentials 
+### Replace the example env with .env file and Enter Your own Credentials 
 
 
 ## Now run Yarn Server and Node Server 
 ### Run yarn server when in main directory and Node Server when in Server Directory
 ```
 yarn dev
-
 ```
 ```
 Node index.js
@@ -72,3 +68,6 @@ Node index.js
 * **Anmol Jain** -  [anmoljain16](https://github.com/anmoljain16)
 
 
+## If Any Query DM me on Linkedin 
+
+* **Anmol Jain** - [anmol16](https://www.linkedin.com/in/anmol16/)
