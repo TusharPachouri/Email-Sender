@@ -9,65 +9,75 @@ These instructions will help you set up the project on your local machine for de
 ### Prerequisites
 
 To run this project, you need to have the following software installed:
-```
-Node.js
-Yarn package manager
-```
+
+- Node.js
+- Yarn package manager
 
 ### Installing
 
 Follow the steps below to get a development environment running:
 
-```
-git clone https://github.com/anmoljain16/Email-Sender.git
-```
+1. Clone the repository:
 
-```
-cd Email-Sender
-```
-```
-yarn 
-```
+    ```bash
+    git clone https://github.com/TusharPachouri/Email-Sender.git
+    ```
 
-```
-cd src
-```
+2. Navigate to the project directory:
 
-```
-cd Server
-```
+    ```bash
+    cd Email-Sender
+    ```
 
-```
-npm i
-```
+3. Install dependencies:
 
-### Replace the example env with .env file and Enter Your own Credentials 
+    ```bash
+    yarn
+    ```
 
+4. Navigate to the server directory:
 
-## Now run Yarn Server and Node Server 
-### Run yarn server when in main directory and Node Server when in Server Directory
-```
-yarn dev
-```
-```
-Node index.js
-```
+    ```bash
+    cd src/Server
+    ```
 
+5. Install server dependencies:
+
+    ```bash
+    npm install
+    ```
+
+6. Replace the example env with .env file and enter your own credentials.
+
+## Running the Servers
+
+Run the following commands to start the servers:
+
+1. Start the development server:
+
+    ```bash
+    yarn dev
+    ```
+
+2. Start the Node server:
+
+    ```bash
+    node index.js
+    ```
 
 ## Built With
 
-* [Nodemailer](https://nodemailer.com/) -  Library for sending emails in Node.js
-* [ReactJS](https://reactjs.org/) - JavaScript library for building user interfaces
-* [Vite](https://vitejs.dev/) - Fast web development build tool
-* [Yarn](https://yarnpkg.com/) - Dependency management and package manager
-
-
+- [Nodemailer](https://nodemailer.com/) - Library for sending emails in Node.js
+- [ReactJS](https://reactjs.org/) - JavaScript library for building user interfaces
+- [Vite](https://vitejs.dev/) - Fast web development build tool
+- [Yarn](https://yarnpkg.com/) - Dependency management and package manager
 
 ## Authors
 
-* **Anmol Jain** -  [anmoljain16](https://github.com/anmoljain16)
+- **Tushar Pachouri** - [GitHub](https://github.com/TusharPachouri)
 
+## Contact
 
-## If Any Query DM me on Linkedin 
+If you have any queries, feel free to reach out to the author:
 
-* **Anmol Jain** - [anmol16](https://www.linkedin.com/in/anmol16/)
+- **Tushar Pachouri** - [LinkedIn](https://www.linkedin.com/in/tushar-pachouri/)
