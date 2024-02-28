@@ -16,6 +16,7 @@ app.use((req, res, next) => {
 // POST endpoint for sending emails
 app.post('/send-email', async (req, res) => {
   const { recipient, content } = req.body;
+  console.log(recipient, content);
 
   // Create a transporter for sending the email
   const transporter = nodemailer.createTransport({
@@ -27,11 +28,12 @@ app.post('/send-email', async (req, res) => {
         pass: process.env.PASSWORD
     },
   });
+  // console.log(process.env.USER);
 
   // Define the email options
   const mailOptions = {
     from:{
-        name : 'Anmol Jain',
+        name : 'Tushar Pachouri',
         address : process.env.USER
       },
     to: recipient,
@@ -42,10 +44,11 @@ app.post('/send-email', async (req, res) => {
   try {
     // Send the email
     await transporter.sendMail(mailOptions);
-    res.sendStatus(200);
+    return res.sendStatus(200);
+    
   } catch (error) {
     console.error('Error occurred:', error);
-    res.status(500).json({ error: 'Failed to send email' });
+    return res.status(500).json({ error: 'Failed to send email' });
   }
 });
 

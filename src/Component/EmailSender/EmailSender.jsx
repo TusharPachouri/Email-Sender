@@ -14,14 +14,15 @@ function EmailSender() {
     setContent(e.target.value);
   };
 
-  const handleSendEmail = async () => {
+  const handleSendEmail = async (e) => {
+    e.preventDefault();
     try {
       // Make a POST request to your backend endpoint with recipient and content data
       const response = await axios.post('http://localhost:3000/send-email', {
         recipient,
         content,
       });
-
+      console.log(response);
       if (response.status === 200) {
         // Email sent successfully
         alert('Email sent!');
